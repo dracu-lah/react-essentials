@@ -1,20 +1,13 @@
-import { useState } from "react"
+import Counter from "./Counter"
+import Form from "./Form"
 
 const Chapter4 = () => {
-  const [value, setValue] = useState(0)
   return (
-    <div style={{ display: "flex", gap: 4 }}>
-      <button onClick={() => setValue(prev => prev - 1)}>
-        -
-      </button>
+    <div>
+      <h1 style={{ marginBottom: "12px" }}><u>Chapter 4 | useState Hook</u></h1>
+      <Counter />
+      <Form />
 
-      <div>
-
-        {value}
-      </div>
-      <button onClick={() => setValue(prev => prev + 1)}>
-        +
-      </button>
     </div>
   )
 }

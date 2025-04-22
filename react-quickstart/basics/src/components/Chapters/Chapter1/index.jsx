@@ -5,8 +5,9 @@ const Chapter1 = () => {
   }
   return (
     <div>
-      <h1>Name: {employee.name}</h1>
-      <h2>Age: {employee.age}</h2>
+      <h1 style={{ marginBottom: "12px" }}><u>Chapter 1 | JSX</u></h1>
+      <h4>Name: {employee.name}</h4>
+      <p>Age: {employee.age}</p>
     </div>
   )
 }

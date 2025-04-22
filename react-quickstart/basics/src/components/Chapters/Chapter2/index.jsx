@@ -7,6 +7,7 @@ const Chapter2 = () => {
   }
   return (
     <div>
+      <h1 style={{ marginBottom: "12px" }}><u>Chapter 2 | Props</u></h1>
       <h1>Name: {employee.name}</h1>
       <h2>Age: {employee.age}</h2>
       <AnotherComponent age={employee.age} />

@@ -8,18 +8,21 @@ const Chapter5 = () => {
     setValue(34)
   }, [])
   return (
-    <div style={{ display: "flex", gap: 4 }}>
-      <button onClick={() => setValue(prev => prev - 1)}>
-        -
-      </button>
+    <div>
+      <h1 style={{ marginBottom: "12px" }}><u>Chapter 5 | useEffect Hook</u></h1>
+      <div style={{ display: "flex", gap: 4 }}>
+        <button onClick={() => setValue(prev => prev - 1)}>
+          -
+        </button>
 
-      <div>
+        <div>
 
-        {value}
+          {value}
+        </div>
+        <button onClick={() => setValue(prev => prev + 1)}>
+          +
+        </button>
       </div>
-      <button onClick={() => setValue(prev => prev + 1)}>
-        +
-      </button>
     </div>
   )
 }
