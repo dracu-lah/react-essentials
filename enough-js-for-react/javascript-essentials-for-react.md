@@ -5,8 +5,8 @@ This guide covers the foundational JavaScript concepts you should be familiar wi
 
 ## 1. Variables and Constants
 ```js
-let name = "John";
-const age = 25;
+const name = "John";
+let age = 25;
 ```
 
 ## 2. Functions
