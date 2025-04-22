@@ -3,6 +3,7 @@ import Chapter2 from "./components/Chapter2"
 import Chapter3 from "./components/Chapter3"
 import Chapter4 from "./components/Chapter4"
 import Chapter5 from "./components/Chapter5"
+import Chapter6 from "./components/Chapter6"
 
 const App = () => {
   return (
@@ -11,11 +12,12 @@ const App = () => {
         React App
       </h1>
       <div>
-        <Chapter1 />
+        {/* <Chapter1 /> */}
         {/* <Chapter2 /> */}
         {/* <Chapter3 /> */}
         {/* <Chapter4 /> */}
         {/* <Chapter5 /> */}
+        <Chapter6 />
       </div>
     </div>
   )
